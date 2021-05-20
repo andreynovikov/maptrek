@@ -56,6 +56,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:node="merge">
+        <activity android:name=".SplashActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTask"
@@ -116,7 +117,7 @@
             android:exported="false" />
         <service
             android:name=".location.GraphHopperService"
-            android:exported="false"/>
+            android:exported="false" />
         <service
             android:name=".maps.MapService"
             android:exported="false" />

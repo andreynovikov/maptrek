@@ -791,6 +791,8 @@ public class MainActivity extends BasePluginActivity implements ILocationListene
 
         if (lastIntroduction < IntroductionActivity.CURRENT_INTRODUCTION)
             startActivity(new Intent(this, IntroductionActivity.class));
+        else
+            startActivity(new Intent(this, SplashActivity.class));
     }
 
     protected void onNewIntent(Intent intent) {
